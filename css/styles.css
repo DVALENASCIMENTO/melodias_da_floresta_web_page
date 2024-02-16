@@ -1,0 +1,222 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #011402;
+    color: #f7faea;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #0a550d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+/* Estilos para a imagem no cabeçalho */
+#header-image {
+    display: block;
+    margin: 0 auto; /* Centralizar a imagem horizontalmente */
+    max-width: 100%; /* Garantir que a imagem não ultrapasse a largura do seu contêiner */
+    border-radius: 10px; /* Adicionar uma borda arredondada à imagem */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adicionar uma sombra à imagem */
+}
+
+/* Estilos para o texto sobre a imagem */
+.project-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(97, 97, 97, 0.7).7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    opacity: 50;
+    transition: opacity 0.3s ease;
+}
+
+/* Estilos para a imagem */
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: filter 0.3s ease;
+}
+
+
+
+
+/* Estilo dos links da barra de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d6da03;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #0a550d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#dark-mode-btn:hover {
+    background-color: #555;
+}
+
+/* Estilo para o leitor de PDF */
+#pdf-reader {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    overflow-x: auto;
+    
+}
+
+#pdf-reader iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* Estilo para o player de áudio */
+#audio-player {
+    display: none;
+}
+
+/* Estilo para o espaço de texto sobre a música */
+.music-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Consultas de mídia para tornar a página responsiva */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para a imagem e o texto sobre o projeto */
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: filter 0.3s ease;
+}
+
+/* Estilos para a seção sobre o compositor */
+.about {
+    padding: 20px;
+    text-align: justify;
+}
+
+.about-text {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #6d6d6d;
+}
+
+.about-title {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilos para a seção contatos */
+
+.contacts {
+    padding: 20px;
+}
+
+.contacts-title {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    color: #46aa4a;
+    margin-bottom: 10px;
+}
+
+.contacts-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contacts-list li {
+    margin-bottom: 10px;
+}
+
+.contacts-list li a {
+    text-decoration: none;
+    color: #008cff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contacts-list li a:hover {
+    color: #50f055;
+}

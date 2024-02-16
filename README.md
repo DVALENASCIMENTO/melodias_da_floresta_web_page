@@ -1,4 +1,7 @@
-Melodias das Florestas
+![mobile](https://github.com/DVALENASCIMENTO/melodias_da_floresta_web_page/assets/105137007/1cb7712f-2012-4e63-8fe3-8085a7c0c9fa)
+
+MELODIAS DA FLORESTA Web Page
+
 Bem-vindo ao projeto Melodias da Floresta! Este é um projeto web que combina música, natureza e tecnologia para proporcionar uma experiência única aos usuários. O projeto apresenta composições musicais inspiradas no canto de pássaros nativos da floresta brasileira, acompanhadas de partituras em PDF e uma imersão sonora através de recursos de áudio.
 
 Como Funciona

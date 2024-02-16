@@ -2,7 +2,8 @@
 
 MELODIAS DA FLORESTA Web Page
 
-Bem-vindo ao projeto Melodias da Floresta! Este é um projeto web que combina música, natureza e tecnologia para proporcionar uma experiência única aos usuários. O projeto apresenta composições musicais inspiradas no canto de pássaros nativos da floresta brasileira, acompanhadas de partituras em PDF e uma imersão sonora através de recursos de áudio.
+Bem-vindo ao projeto Melodias da Floresta - https://dvalenascimento.github.io/melodias_da_floresta_web_page/
+Este é um projeto web que combina música, natureza e tecnologia para proporcionar uma experiência única aos usuários. O projeto apresenta composições musicais inspiradas no canto de pássaros nativos da floresta brasileira, acompanhadas de partituras em PDF e uma imersão sonora através de recursos de áudio.
 
 Como Funciona
 O projeto é construído utilizando HTML, CSS e JavaScript. Aqui está uma visão geral de como funciona:
